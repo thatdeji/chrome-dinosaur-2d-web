@@ -25,6 +25,7 @@ void Score::update() {
 
 	if (mCurrentscore >= mGameCompletedScore) {
 		mCurrentscore = mGameCompletedScore;
+		mHighscore = mCurrentscore;
 		Game::mGameCompleted = true;
 		return;
 	}
