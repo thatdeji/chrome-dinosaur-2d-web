@@ -5,7 +5,7 @@ int Score::mHighscore;
 int Score::mCurrentscore;
 int Score::mToggleTick = 0;
 int Score::mToggleSignal = 1000;
-const int Score::mGameCompletedScore = 100000;
+const int Score::mGameCompletedScore = 300;
 
 void Score::init() {
 	mCurrentscore = 1;
